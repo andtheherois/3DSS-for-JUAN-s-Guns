@@ -1,0 +1,141 @@
+![wpn_banshee9j]
+>scopes	= t12, vulcan, monstrum, trihawk, tac30
+<scopes = gauss_sight 
+!hud_fov
+
+lewd_lens_hide_enabled       = true
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+![wpn_banshee9j_acog]
+scope_zoom_factor        = 42.86
+scope_texture            =
+![wpn_banshee9j_acog_hud]
+        aim_hud_offset_pos               = -0.044269, 0.000241, -0.053351
+        aim_hud_offset_pos_16x9          = -0.044269, 0.000241, -0.053351
+        aim_hud_offset_rot               = 0.041505, 0.047879, 0.001
+        aim_hud_offset_rot_16x9          = 0.041505, 0.047879, 0.001
+
+;--------------------------------------------------------------------------------
+![wpn_banshee9j_specter]:wpn_banshee9j
+
+        scope_status				= 1
+        scope_zoom_factor			= 40
+		zoom_step_count				= 1
+        scope_dynamic_zoom			= on
+		scope_texture				= 
+		use_alt_aim_hud				= true
+
+![wpn_banshee9j_specter_hud]
+        aim_hud_offset_alt_pos           = -0.044721, -0.017702, -0.066048
+        aim_hud_offset_alt_pos_16x9      = -0.044721, -0.017702, -0.066048
+        aim_hud_offset_alt_rot           = 0.054959, 0.051984, 0
+        aim_hud_offset_alt_rot_16x9      = 0.054959, 0.051984, 0
+		
+        aim_hud_offset_pos               = -0.044304, -0.001129, -0.047386
+        aim_hud_offset_pos_16x9          = -0.044304, -0.001129, -0.047386
+        aim_hud_offset_rot               = 0.036242, 0.048078, 0
+        aim_hud_offset_rot_16x9          = 0.036242, 0.048078, 0
+		
+;--------------------------------------------------------------------------------
+[wpn_banshee9j_tac30]:wpn_banshee9j
+hud                         = wpn_banshee9j_tac30_hud
+
+        1icon_layer					= tac30
+        1icon_layer_x				= 73
+        1icon_layer_y				= -18
+                
+        scope_status				= 1
+        scope_zoom_factor			= 30
+        zoom_rotate_time			= 0.25
+        scope_dynamic_zoom			= on
+
+[wpn_banshee9j_tac30_hud]:wpn_banshee9j_hud
+item_visual                              = anomaly_weapons\wpn_banshee9j\wpn_banshee9j_tac30_hud.ogf
+        aim_hud_offset_pos               = -0.044296, -0.004422, -0.008363
+        aim_hud_offset_pos_16x9          = -0.044296, -0.004422, -0.008363
+        aim_hud_offset_rot               = 0.036742, 0.048053, 0
+        aim_hud_offset_rot_16x9          = 0.036742, 0.048053, 0
+		
+;--------------------------------------------------------------------------------		
+[wpn_banshee9j_monstrum]:wpn_banshee9j
+        hud                         = wpn_banshee9j_monstrum_hud
+
+        1icon_layer					= monstrum
+        1icon_layer_x				= 90
+        1icon_layer_y				= -21
+
+        scope_status				= 1
+        scope_zoom_factor			= 60
+        zoom_rotate_time			= 0.25
+        scope_dynamic_zoom			= off
+	
+[wpn_banshee9j_monstrum_hud]:wpn_banshee9j_hud
+item_visual                              = anomaly_weapons\wpn_banshee9j\wpn_banshee9j_monstrum_hud.ogf
+        aim_hud_offset_pos               = -0.044092, 0.005417, -0.048264
+        aim_hud_offset_pos_16x9          = -0.044092, 0.005417, -0.048264
+        aim_hud_offset_rot               = 0.035888, 0.047798, 0
+        aim_hud_offset_rot_16x9          = 0.035888, 0.047798, 0
+		
+;--------------------------------------------------------------------------------
+[wpn_banshee9j_trihawk]:wpn_banshee9j
+        hud                         = wpn_banshee9j_trihawk_hud
+
+        1icon_layer					= trihawk
+        1icon_layer_x				= 94
+        1icon_layer_y				= -22
+        
+        scope_status				= 1
+        scope_zoom_factor			= 40
+        zoom_rotate_time			= 0.25
+        scope_dynamic_zoom			= off
+
+[wpn_banshee9j_trihawk_hud]:wpn_banshee9j_hud
+item_visual                              = anomaly_weapons\wpn_banshee9j\wpn_banshee9j_trihawk_hud.ogf
+        aim_hud_offset_pos               = -0.044196, -0.00507, -0.031394
+        aim_hud_offset_pos_16x9          = -0.044196, -0.00507, -0.031394
+        aim_hud_offset_rot               = 0.036194, 0.047352, 0
+        aim_hud_offset_rot_16x9          = 0.036194, 0.047352, 0
+
+;--------------------------------------------------------------------------------
+[wpn_banshee9j_vulcan]:wpn_banshee9j
+        hud                         = wpn_banshee9j_vulcan_hud
+
+        1icon_layer					= vulcan
+        1icon_layer_x				=83
+        1icon_layer_y				= -19
+        
+        inv_weight					= 3.62
+        
+        scope_status				= 1
+        scope_zoom_factor			= 35
+        zoom_rotate_time			= 0.25
+        scope_dynamic_zoom			= off
+		
+[wpn_banshee9j_vulcan_hud]:wpn_banshee9j_hud
+item_visual                              = anomaly_weapons\wpn_banshee9j\wpn_banshee9j_vulcan_hud.ogf
+        aim_hud_offset_pos               = -0.044692, -0.001115, -0.044121
+        aim_hud_offset_pos_16x9          = -0.044692, -0.001115, -0.044121
+        aim_hud_offset_rot               = 0.036959, 0.048914, 0
+        aim_hud_offset_rot_16x9          = 0.036959, 0.048914, 0
+
+;--------------------------------------------------------------------------------
+[wpn_banshee9j_t12]:wpn_banshee9j
+hud                                      = wpn_banshee9j_t12_hud
+
+1icon_layer                              = t12
+1icon_layer_x                            = 115
+1icon_layer_y                            = -21
+
+	scope_status		= 1
+
+	s3ds_reticle_size 	= 2
+	
+[wpn_banshee9j_t12_hud]:wpn_banshee9j_hud
+item_visual                              = anomaly_weapons\wpn_banshee9j\wpn_banshee9j_t12_hud.ogf
+        aim_hud_offset_pos               = -0.044164, 0.001617, -0.024764
+        aim_hud_offset_pos_16x9          = -0.044164, 0.001617, -0.024764
+        aim_hud_offset_rot               = 0.039207, 0.048019, 0
+        aim_hud_offset_rot_16x9          = 0.039207, 0.048019, 0
+		

@@ -1,0 +1,124 @@
+;=================================================================
+![wpn_arbiter_defender]
+>scopes                                   = acog, monstrum, t12, tac30, vulcan
+lewd_lens_hide_enabled       = true
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+![wpn_arbiter_defender_specter]
+        scope_zoom_factor                = 30
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+		zoom_step_count 				 = 1
+![wpn_arbiter_defender_specter_hud]
+        aim_hud_offset_alt_pos           = -0.065816, -0.004627, -0.149745
+        aim_hud_offset_alt_pos_16x9      = -0.065816, -0.004627, -0.149745
+        aim_hud_offset_alt_rot           = 0.065643, 0.047222, -0.046934
+        aim_hud_offset_alt_rot_16x9      = 0.065643, 0.047222, -0.046934
+		
+        aim_hud_offset_pos               = -0.064718, 0.016252, -0.137481
+        aim_hud_offset_pos_16x9          = -0.064718, 0.016252, -0.137481
+        aim_hud_offset_rot               = 0.061116, 0.042275, -0.04501
+        aim_hud_offset_rot_16x9          = 0.061116, 0.042275, -0.04501
+
+;----------------------------------------------------------------------------		
+[wpn_arbiter_defender_t12]:wpn_arbiter_defender
+hud					= wpn_arbiter_defender_t12_hud
+1icon_layer                      = t12
+1icon_layer_x                    = 87
+1icon_layer_y                    = -23
+
+	s3ds_reticle_size 	= 1.95
+	
+[wpn_arbiter_defender_t12_hud]:wpn_arbiter_defender_hud
+item_visual				= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_t12_hud.ogf
+        aim_hud_offset_pos               = -0.064629, 0.02836, -0.101223
+        aim_hud_offset_pos_16x9          = -0.064629, 0.02836, -0.101223
+        aim_hud_offset_rot               = 0.063358, 0.042266, -0.04501
+        aim_hud_offset_rot_16x9          = 0.063358, 0.042266, -0.04501
+		
+;----------------------------------------------------------------------------		
+[wpn_arbiter_defender_acog]:wpn_arbiter_defender
+hud					= wpn_arbiter_defender_acog_hud
+1icon_layer                      = acog
+1icon_layer_x                    = 83
+1icon_layer_y                    = -18
+
+scope_status                     = 1
+scope_zoom_factor                = 42.86
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = off
+scope_zoom_factor_alt            = 0
+
+[wpn_arbiter_defender_acog_hud]:wpn_arbiter_defender_hud
+item_visual				= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_acog_hud.ogf
+        aim_hud_offset_pos               = -0.065029, 0.018336, -0.144519
+        aim_hud_offset_pos_16x9          = -0.065029, 0.018336, -0.144519
+        aim_hud_offset_rot               = 0.067097, 0.042785, -0.04501
+        aim_hud_offset_rot_16x9          = 0.067097, 0.042785, -0.04501
+		
+;----------------------------------------------------------------------------		
+[wpn_arbiter_defender_monstrum]:wpn_arbiter_defender
+hud					= wpn_arbiter_defender_monstrum_hud
+1icon_layer                      = monstrum
+1icon_layer_x                    = 83
+1icon_layer_y                    = -20
+
+scope_status                     = 1
+scope_zoom_factor                = 60
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = off
+scope_zoom_factor_alt            = 0
+
+[wpn_arbiter_defender_monstrum_hud]:wpn_arbiter_defender_hud
+item_visual				= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_monstrum_hud.ogf
+        aim_hud_offset_pos               = -0.064744, 0.022708, -0.127612
+        aim_hud_offset_pos_16x9          = -0.064744, 0.022708, -0.127612
+        aim_hud_offset_rot               = 0.060919, 0.041792, -0.04501
+        aim_hud_offset_rot_16x9          = 0.060919, 0.041792, -0.04501
+		
+;----------------------------------------------------------------------------		
+[wpn_arbiter_defender_tac30]:wpn_arbiter_defender
+hud					= wpn_arbiter_defender_tac30_hud
+1icon_layer                      = tac30
+1icon_layer_x                    = 69
+1icon_layer_y                    = -20
+
+scope_status                     = 1
+scope_zoom_factor                = 30
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = on
+scope_zoom_factor_alt            = 0
+
+[wpn_arbiter_defender_tac30_hud]:wpn_arbiter_defender_hud
+item_visual				= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_tac30_hud.ogf
+        aim_hud_offset_pos               = -0.065112, 0.012905, -0.06567
+        aim_hud_offset_pos_16x9          = -0.065112, 0.012905, -0.06567
+        aim_hud_offset_rot               = 0.061559, 0.043558, -0.04501
+        aim_hud_offset_rot_16x9          = 0.061559, 0.043558, -0.04501
+		
+;----------------------------------------------------------------------------		
+[wpn_arbiter_defender_vulcan]:wpn_arbiter_defender
+hud					= wpn_arbiter_defender_vulcan_hud
+1icon_layer                      = vulcan
+1icon_layer_x                    = 68
+1icon_layer_y                    = -22
+
+scope_status                     = 1
+scope_zoom_factor                = 35
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = off
+scope_zoom_factor_alt            = 0
+
+[wpn_arbiter_defender_vulcan_hud]:wpn_arbiter_defender_hud
+item_visual				= anomaly_weapons\wpn_arbiter_defender\wpn_arbiter_defender_vulcan_hud.ogf
+        aim_hud_offset_pos               = -0.064909, 0.014489, -0.09795
+        aim_hud_offset_pos_16x9          = -0.064909, 0.014489, -0.09795
+        aim_hud_offset_rot               = 0.061589, 0.042518, -0.04501
+        aim_hud_offset_rot_16x9          = 0.061589, 0.042518, -0.04501
+		

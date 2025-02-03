@@ -1,0 +1,36 @@
+;=================================================================
+![wpn_stg44_j]
+parent_section              = wpn_stg44_j
+scopes                      = wpn_addon_scope_zf4
+!hud_fov
+lewd_lens_hide_enabled       = true
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+[wpn_stg44_j_wpn_addon_scope_zf4]:wpn_stg44_j
+hud                         = wpn_stg44_j_wpn_addon_scope_zf4_hud
+
+1icon_layer					= wpn_addon_scope_zf4
+1icon_layer_x				= 50
+1icon_layer_y				= -15
+
+inv_weight                  = 3.7
+
+
+scope_status                = 1
+scope_zoom_factor           = 30
+use_alt_aim_hud				= true
+
+
+[wpn_stg44_j_wpn_addon_scope_zf4_hud]:wpn_stg44_j_hud
+item_visual                              = anomaly_weapons\wpn_stg_44_j\wpn_stg_44_zf4_hud.ogf
+        aim_hud_offset_alt_pos               = -0.102095, 0.022645, -0.041525
+        aim_hud_offset_alt_pos_16x9          = -0.102095, 0.022645, -0.041525
+        aim_hud_offset_alt_rot               = 5.1e-05, 0.005319, 0.0045
+        aim_hud_offset_alt_rot_16x9          = 5.1e-05, 0.005319, 0.0045
+		
+        aim_hud_offset_pos               = -0.103291, -0.000794, -0.099298
+        aim_hud_offset_pos_16x9          = -0.103291, -0.000794, -0.099298
+        aim_hud_offset_rot               = 0.006509, 0.000406, 0.0045
+        aim_hud_offset_rot_16x9          = 0.006509, 0.000406, 0.0045

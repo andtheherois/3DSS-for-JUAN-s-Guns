@@ -1,0 +1,37 @@
+;=================================================================		
+![wpn_w_1887_j_long]
+!hud_fov	
+scopes 									= side
+lewd_lens_hide_enabled       = true	
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+[wpn_w_1887_j_long_side]:wpn_w_1887_j_long	
+hud				= wpn_1887_long_side_hud
+
+1icon_layer                              = side
+1icon_layer_x                            = 80
+1icon_layer_y                            = -25
+
+	s3ds_reticle_size 	= 2.5
+	s3ds_eye_relief 	= 3.85	
+	magnification 		= 3.5
+	
+		scope_status					 = 1	
+		scope_zoom_factor                = 35
+		use_alt_aim_hud                  = true
+		
+[wpn_1887_long_side_hud]:wpn_w_1887_j_long_hud
+item_visual                 	 = anomaly_weapons\wpn_w_1887_j\wpn_w_1887_j_long_side_hud.ogf
+        aim_hud_offset_pos               = -0.04694, 0.036213, -0.172506
+        aim_hud_offset_pos_16x9          = -0.04694, 0.036213, -0.172506
+        aim_hud_offset_rot               = 0.045207, 0.033196, 0.00782
+        aim_hud_offset_rot_16x9          = 0.045207, 0.033196, 0.00782
+		
+        aim_hud_offset_alt_pos               = -0.072636, 0.03785, -0.076045
+        aim_hud_offset_alt_pos_16x9          = -0.072636, 0.03785, -0.076045		
+        aim_hud_offset_alt_rot               = 0.035388, 0.035705, 0.01
+        aim_hud_offset_alt_rot_16x9          = 0.035388, 0.035705, 0.01		
+
+

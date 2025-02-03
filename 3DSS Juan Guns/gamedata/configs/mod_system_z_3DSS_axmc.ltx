@@ -1,0 +1,251 @@
+;=================================================================	
+![wpn_axmc]
+>scopes						 = acog, gauss_sight
+lewd_lens_hide_enabled       = true
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+![wpn_axmc_triji]
+        scope_zoom_factor                = 42.86
+		scope_texture                    =
+![wpn_axmc_triji_hud]
+        aim_hud_offset_pos               = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_pos_16x9          = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_rot               = 0.020604, 0.01544, -0.0465
+        aim_hud_offset_rot_16x9          = 0.020604, 0.01544, -0.0465
+		
+![wpn_axmc_specter]
+        scope_zoom_factor                = 30
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+		zoom_step_count 				 = 1
+![wpn_axmc_specter_hud]
+        aim_hud_offset_pos               = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_pos_16x9          = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_rot               = 0.014878, 0.014907, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014878, 0.014907, -0.0465
+
+        aim_hud_offset_alt_pos           = -0.04971, -0.026868, -0.071399
+        aim_hud_offset_alt_pos_16x9      = -0.04971, -0.026868, -0.071399
+        aim_hud_offset_alt_rot           = 0.019061, 0.018664, -0.046724
+        aim_hud_offset_alt_rot_16x9      = 0.019061, 0.018664, -0.046724
+		
+![wpn_axmc_spec_alt]
+        scope_zoom_factor                = 30
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+		zoom_step_count 				 = 1
+![wpn_axmc_spec_alt_hud]
+        aim_hud_offset_pos               = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_pos_16x9          = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_rot               = 0.014878, 0.014907, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014878, 0.014907, -0.0465
+		
+![wpn_axmc_leupold]
+		scope_zoom_factor                = 15
+		scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_leupold_hud]
+        aim_hud_offset_pos               = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_pos_16x9          = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_rot               = 0.01525, 0.014703, -0.0465
+        aim_hud_offset_rot_16x9          = 0.01525, 0.014703, -0.0465
+		
+![wpn_axmc_mark8_rmr]
+		scope_zoom_factor                = 15
+		scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_mark8_rmr_hud]
+        aim_hud_offset_pos               = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_pos_16x9          = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_rot               = 0.01525, 0.014703, -0.0465
+        aim_hud_offset_rot_16x9          = 0.01525, 0.014703, -0.0465
+		
+![wpn_axmc_pn23]
+        scope_zoom_factor                = 20
+        scope_texture                    =
+		nv_scope_status 				 = 0
+		scope_dynamic_zoom               = on
+![wpn_axmc_pn23_hud]
+        aim_hud_offset_pos               = -0.0492, -0.009528, -0.10834
+        aim_hud_offset_pos_16x9          = -0.0492, -0.009528, -0.10834
+        aim_hud_offset_rot               = 0.014581, 0.014749, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014581, 0.014749, -0.0465
+		
+![wpn_axmc_marchf]
+        scope_zoom_factor                = 5
+		min_scope_zoom_factor			 = 40
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_marchf_hud]
+        aim_hud_offset_pos               = -0.04903, -0.001813, -0.065695
+        aim_hud_offset_pos_16x9          = -0.04903, -0.001813, -0.065695
+        aim_hud_offset_rot               = 0.015073, 0.015644, -0.0465
+        aim_hud_offset_rot_16x9          = 0.015073, 0.015644, -0.0465
+		
+;----------------------------------------------------------------------------	
+[wpn_axmc_acog]:wpn_axmc
+hud					= wpn_axmc_acog_hud
+1icon_layer                      = acog
+1icon_layer_x                    = 83
+1icon_layer_y                    = -3
+
+scope_status                     = 1
+scope_zoom_factor                = 42.86
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = off
+scope_zoom_factor_alt            = 0
+
+[wpn_axmc_acog_hud]:wpn_axmc_hud
+item_visual				= anomaly_weapons\wpn_axmc\wpn_axmc_acog_hud.ogf
+        aim_hud_offset_pos               = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_pos_16x9          = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_rot               = 0.020604, 0.01544, -0.0465
+        aim_hud_offset_rot_16x9          = 0.020604, 0.01544, -0.0465
+		
+;----------------------------------------------------------------------------
+[wpn_axmc_gauss_sight]:wpn_axmc
+hud								 = wpn_axmc_gauss_sight_hud
+
+1icon_layer                      = gauss_sight
+1icon_layer_x                    = 73
+1icon_layer_y                    = 2
+
+scope_status                     = 1
+scope_zoom_factor                = 12
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = on
+
+[wpn_axmc_gauss_sight_hud]:wpn_axmc_hud
+item_visual				= anomaly_weapons\wpn_axmc\wpn_axmc_gauss_hud.ogf
+        aim_hud_offset_pos               = -0.04932, -1.2e-05, -0.104154
+        aim_hud_offset_pos_16x9          = -0.04932, -1.2e-05, -0.104154
+        aim_hud_offset_rot               = 0.014985, 0.015496, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014985, 0.015496, -0.0465
+		
+;=================================================================	
+![wpn_axmc_black]
+>scopes						 = acog, gauss_sight
+lewd_lens_hide_enabled       = true
+lewd_lens_hide_bone          = lens
+lewd_lens_hide_delays        = 0.1,0
+lewd_lens_hide_aim_mode      = true, false, false
+
+![wpn_axmc_black_triji]
+        scope_zoom_factor                = 42.86
+		scope_texture                    =
+![wpn_axmc_black_triji_hud]
+        aim_hud_offset_pos               = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_pos_16x9          = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_rot               = 0.020604, 0.01544, -0.0465
+        aim_hud_offset_rot_16x9          = 0.020604, 0.01544, -0.0465
+		
+![wpn_axmc_black_specter]
+        scope_zoom_factor                = 30
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+		zoom_step_count 				 = 1
+![wpn_axmc_black_specter_hud]
+        aim_hud_offset_pos               = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_pos_16x9          = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_rot               = 0.014878, 0.014907, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014878, 0.014907, -0.0465
+		
+![wpn_axmc_black_spec_alt]
+        scope_zoom_factor                = 30
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+		zoom_step_count 				 = 1
+![wpn_axmc_black_spec_alt_hud]
+        aim_hud_offset_pos               = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_pos_16x9          = -0.049206, -0.002241, -0.092048
+        aim_hud_offset_rot               = 0.014878, 0.014907, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014878, 0.014907, -0.0465
+		
+![wpn_axmc_black_leupold]
+		scope_zoom_factor                = 15
+		scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_black_leupold_hud]
+        aim_hud_offset_pos               = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_pos_16x9          = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_rot               = 0.01525, 0.014703, -0.0465
+        aim_hud_offset_rot_16x9          = 0.01525, 0.014703, -0.0465
+		
+![wpn_axmc_black_mark8_rmr]
+		scope_zoom_factor                = 15
+		scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_black_mark8_rmr_hud]
+        aim_hud_offset_pos               = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_pos_16x9          = -0.049303, -0.00254, -0.069084
+        aim_hud_offset_rot               = 0.01525, 0.014703, -0.0465
+        aim_hud_offset_rot_16x9          = 0.01525, 0.014703, -0.0465
+		
+![wpn_axmc_black_pn23]
+        scope_zoom_factor                = 20
+        scope_texture                    =
+		nv_scope_status 				 = 0
+		scope_dynamic_zoom               = on
+![wpn_axmc_black_pn23_hud]
+        aim_hud_offset_pos               = -0.0492, -0.009528, -0.10834
+        aim_hud_offset_pos_16x9          = -0.0492, -0.009528, -0.10834
+        aim_hud_offset_rot               = 0.014581, 0.014749, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014581, 0.014749, -0.0465
+		
+![wpn_axmc_black_marchf]
+        scope_zoom_factor                = 5
+		min_scope_zoom_factor			 = 40
+        scope_texture                    =
+		scope_dynamic_zoom               = on
+![wpn_axmc_black_marchf_hud]
+        aim_hud_offset_pos               = -0.04903, -0.001813, -0.065695
+        aim_hud_offset_pos_16x9          = -0.04903, -0.001813, -0.065695
+        aim_hud_offset_rot               = 0.015073, 0.015644, -0.0465
+        aim_hud_offset_rot_16x9          = 0.015073, 0.015644, -0.0465
+		
+;----------------------------------------------------------------------------	
+[wpn_axmc_black_acog]:wpn_axmc_black
+hud					= wpn_axmc_black_acog_hud
+1icon_layer                      = acog
+1icon_layer_x                    = 83
+1icon_layer_y                    = -3
+
+scope_status                     = 1
+scope_zoom_factor                = 42.86
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = off
+scope_zoom_factor_alt            = 0
+
+[wpn_axmc_black_acog_hud]:wpn_axmc_black_hud
+item_visual				= anomaly_weapons\wpn_axmc_black\wpn_axmc_black_acog_hud.ogf
+        aim_hud_offset_pos               = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_pos_16x9          = -0.049726, -0.000327, -0.094107
+        aim_hud_offset_rot               = 0.020604, 0.01544, -0.0465
+        aim_hud_offset_rot_16x9          = 0.020604, 0.01544, -0.0465
+
+;----------------------------------------------------------------------------
+[wpn_axmc_black_gauss_sight]:wpn_axmc_black
+hud								 = wpn_axmc_black_gauss_sight_hud
+
+1icon_layer                      = gauss_sight
+1icon_layer_x                    = 73
+1icon_layer_y                    = 2
+
+scope_status                     = 1
+scope_zoom_factor                = 12
+
+zoom_rotate_time                 = 0.25
+scope_dynamic_zoom               = on
+
+[wpn_axmc_black_gauss_sight_hud]:wpn_axmc_black_hud
+item_visual				= anomaly_weapons\wpn_axmc_black\wpn_axmc_black_gauss_hud.ogf
+        aim_hud_offset_pos               = -0.04932, -1.2e-05, -0.104154
+        aim_hud_offset_pos_16x9          = -0.04932, -1.2e-05, -0.104154
+        aim_hud_offset_rot               = 0.014985, 0.015496, -0.0465
+        aim_hud_offset_rot_16x9          = 0.014985, 0.015496, -0.0465
+		
